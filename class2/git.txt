@@ -1,0 +1,101 @@
+# Git
+
+> Git is a distributed version control system or source code management system
+> Git was designed by the same developer who developed the linux kernel
+> Git is free software distributed under GNU license.
+
+
+# Version control system (VCS)
+It is software that helps the software developer to work togther and maintain a complete history of their work
+
+> Allows developers to work togther
+> Prevent overwriting each other changes
+> Maintain a history of every version
+
+# Type of VCS
+1. Centralized version control system
+2. Decentralized / distributed version control system
+
+# Centralized Version control system, there is a central server to store all files and folder which enable the team to
+  collaborate. But the major drawback of CVCS is its single point of failure what if that central server goes down for an hour
+  then no one can collobrate during that time. if that cebtral server get corrupted or broken you will lose the entire
+  project history.
+
+
+# Distributed version control system we check out the directory latest snapshot and take a complete mirror image of the
+  repository. if the server goes down then the repository from any client can be copied back to the server
+
+
+Git does not rely on a central server as it may perform many operation when we are offline you can commit, add, create a branch,
+  view logs, and perform all other opeartions evenwhen you are offline and we need network connection only to publish
+  our changes
+
+
+# Git vs GitHub
+Git - actual source code management tool
+GitHub - cloud service provider offer space to manage source code on the cloud
+
+
+# Advantages of Git
+
+> Free and Open source - It is available for free over the internet, which means you can download and start using git for free
+  to manage you project code
+
+> Fast
+As most of the operation perform locally, it is a massive benifit in term of speed, the core part of the git is written 
+ in C language, which avoid any runtime overheads associated with other high level languages
+
+> security
+gut uses a comman crytographic function SHA1 to name and identity an object within its database
+
+> implicit backup
+The chances of losing data are very rate when you have multiple copies of it. data present on any disk can be used for
+  restoration purpose
+
+> No powerfull hardware
+In the case of centralized version control system it need to be powerfull enough to serve the entire team request. in the case of
+distributed version control developer does not interact with the server unless they need to push and pull changes
+
+> Branch
+it is very easy to create a branch in DVCS
+
+Repository -> project folder / directory
+Local Repo -> store locally on your computer
+Remote repo -> store on remore server / github
+
+
+> untracked
+> staged
+> commit
+
+
+Git Commands
+------------
+
+> git --version
+
+> git config --list
+> git config --global user.name
+> git config --global user.name "<name>"
+> git config --global user.email
+> git config --global user.email "<email>"
+
+> git init
+> git status
+> git add <file_name>
+> git rm --cached <file_name>
+> git add .  // all files
+
+> git commit -m "<message>"
+
+> git remote -v
+> git remote add origin <github_url>  // this is one activity
+> git push origin master
+
+
+
+
+
+
+
+
