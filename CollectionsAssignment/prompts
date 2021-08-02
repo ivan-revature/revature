@@ -1,0 +1,84 @@
+# Linked List
+1. Write a Java program to append the specified element to the end of a linked list.
+2. Write a Java program to iterate through all elements in a linked list. 
+3. Write a Java program to iterate through all elements in a linked list starting at the specified position. 
+4. Write a Java program to iterate a linked list in reverse order.
+5. Write a Java program to insert the specified element at the specified position in the linked list. 
+
+# HashSet
+1. Write a Java program to append the specified element to the end of a hash set. 
+2. Write a Java program to iterate through all elements in a hash list. 
+3. Write a Java program to get the number of elements in a hash set. 
+4. Write a Java program to empty an hash set.
+
+# TreeSet
+Write a Java program to create a new tree set, add some colors (string) and print out the tree set. 
+2. Write a Java program to iterate through all elements in a tree set.
+3. Write a Java program to add all the elements of a specified tree set to another tree set. 
+4. Write a Java program to create a reverse order view of the elements contained in a given tree set.
+5. Write a Java program to get the first and last elements in a tree set
+
+LinkedList<String> names = new LinkedList<>();
+        names.add("Mark");
+        names.add("Paul");
+        names.add("Watson");
+        System.out.println(names);
+
+        // adding element at specified position
+        names.add(0, "John");
+        System.out.println(names);
+
+        // adding second list
+        LinkedList<String> namesNew = new LinkedList<>();
+        namesNew.add("Stacy");
+        namesNew.add("Smith");
+
+        //names.addAll(namesNew);
+        //System.out.println(names);
+
+        names.addAll(0, namesNew);
+        System.out.println(names);
+
+        // addFirst()
+        names.addFirst("First");
+        System.out.println(names);
+
+
+        // addLast()
+        names.addLast("Last");
+        System.out.println(names);
+
+        // remove()
+        // remoteFirst()
+        // removeLast()
+        // removeFirstOccurrence()
+        // removeLastOccurrence()
+
+        names.add("John");
+        names.add("Paul");
+        System.out.println(names);
+
+        //names.removeFirstOccurrence("John");
+        names.removeLastOccurrence("John");
+        System.out.println(names);
+
+        // reverse elements
+        System.out.println("original");
+        System.out.println(names);
+
+        // traversing list element in reverse order
+        Iterator iterator = names.descendingIterator();
+        while(iterator.hasNext()){
+            //SSystem.out.println(iterator.next());
+        }
+
+        for(int i=names.size() -1; i>0;i--){
+            //System.out.println(names.get(i));
+        }		
+        
+ Write a Java program to:
+  create a new tree set, add some colors (string) and print out the tree set. 
+  iterate through all elements in a tree set.
+  add all the elements of a specified tree set to another tree set. 
+  create a reverse order view of the elements contained in a given tree set.
+  get the first and last elements in a tree set
