@@ -1,5 +1,6 @@
 package com.javatrain.Calculator;
 import java.util.Scanner;
+import java.text.NumberFormat;
 
 public class EMICalculator {
 	double loanPrincipal;
@@ -21,8 +22,8 @@ public class EMICalculator {
 		this.emi = emiDividend / emiDivider;
 	}
 	
-	public double getEMI() {
-		return this.emi;
+	public String getEMI() {
+		return NumberFormat.getInstance().format(this.emi);
 	}
 	
 	public static void main(String[] args) {
