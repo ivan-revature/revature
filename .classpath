@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="day4/Day4ArrayListExercises/src"/>
+	<classpathentry kind="src" path="day4/Day4Ex10/src"/>
+	<classpathentry kind="src" path="day4/Day4Ex11/src"/>
+	<classpathentry kind="src" path="day4/Day4Ex12/src"/>
+	<classpathentry kind="src" path="day4/Day4Ex4/src"/>
+	<classpathentry kind="src" path="day4/Day4Ex5/src"/>
+	<classpathentry kind="src" path="day4/Day4Ex6/src"/>
+	<classpathentry kind="src" path="day4/Day4Ex7/src"/>
+	<classpathentry kind="src" path="day4/Day4Ex8/src"/>
+	<classpathentry kind="src" path="day4/Day4Ex9/src"/>
+	<classpathentry kind="src" path="day4/DayEx13/src"/>
+	<classpathentry kind="src" path="day4/InsertAtZeroArrayList/src"/>
+	<classpathentry kind="src" path="day4/IterateArrayList/src"/>
+	<classpathentry kind="output" path="day4/Day4ArrayListExercises/bin"/>
+</classpath>
