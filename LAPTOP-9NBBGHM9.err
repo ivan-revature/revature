@@ -1,0 +1,46 @@
+2021-08-03T18:48:44.899551Z 0 [System] [MY-013169] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe (mysqld 8.0.26) initializing of server in progress as process 27956
+2021-08-03T18:48:44.901198Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2021-08-03T18:48:44.901584Z 0 [ERROR] [MY-013236] [Server] The designated data directory C:\Users\ivan_\Documents\revature\ is unusable. You can remove all files that the server added to it.
+2021-08-03T18:48:44.906495Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-08-03T18:48:44.907288Z 0 [System] [MY-010910] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.
+2021-08-03T19:04:48.580999Z 0 [System] [MY-010116] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe (mysqld 8.0.26) starting as process 24840
+2021-08-03T19:04:48.620181Z 0 [Warning] [MY-010075] [Server] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: ac7a5f71-f48d-11eb-9c65-29977ca6ca03.
+2021-08-03T19:04:48.626446Z 1 [ERROR] [MY-011011] [Server] Failed to find valid data directory.
+2021-08-03T19:04:48.627285Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-08-03T19:04:48.627677Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-08-03T19:04:48.628460Z 0 [System] [MY-010910] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.
+2021-08-03T19:11:59.373364Z 0 [System] [MY-013169] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe (mysqld 8.0.26) initializing of server in progress as process 24384
+2021-08-03T19:11:59.375149Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2021-08-03T19:11:59.375395Z 0 [ERROR] [MY-013236] [Server] The designated data directory C:\Users\ivan_\Documents\revature\ is unusable. You can remove all files that the server added to it.
+2021-08-03T19:11:59.377253Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-08-03T19:11:59.377648Z 0 [System] [MY-010910] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.
+2021-08-03T19:37:05.845301Z 0 [System] [MY-013169] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe (mysqld 8.0.26) initializing of server in progress as process 21544
+2021-08-03T19:37:05.847005Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2021-08-03T19:37:05.847339Z 0 [ERROR] [MY-013236] [Server] The designated data directory C:\Users\ivan_\Documents\revature\ is unusable. You can remove all files that the server added to it.
+2021-08-03T19:37:05.849173Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-08-03T19:37:05.849566Z 0 [System] [MY-010910] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.
+2021-08-03T19:42:47.778880Z 0 [System] [MY-013169] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe (mysqld 8.0.26) initializing of server in progress as process 27328
+2021-08-03T19:42:47.780479Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2021-08-03T19:42:47.780715Z 0 [ERROR] [MY-013236] [Server] The designated data directory C:\Users\ivan_\Documents\revature\ is unusable. You can remove all files that the server added to it.
+2021-08-03T19:42:47.782641Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-08-03T19:42:47.783015Z 0 [System] [MY-010910] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.
+2021-08-03T19:43:48.304242Z 0 [System] [MY-010116] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe (mysqld 8.0.26) starting as process 25000
+2021-08-03T19:43:48.316455Z 1 [ERROR] [MY-011011] [Server] Failed to find valid data directory.
+2021-08-03T19:43:48.317557Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-08-03T19:43:48.317953Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-08-03T19:43:48.318717Z 0 [System] [MY-010910] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.
+2021-08-03T20:05:56.257364Z 0 [System] [MY-010116] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe (mysqld 8.0.26) starting as process 9980
+2021-08-03T20:05:56.269745Z 1 [ERROR] [MY-011011] [Server] Failed to find valid data directory.
+2021-08-03T20:05:56.270780Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-08-03T20:05:56.271175Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-08-03T20:05:56.271890Z 0 [System] [MY-010910] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.
+2021-08-03T20:10:33.450622Z 0 [System] [MY-013169] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe (mysqld 8.0.26) initializing of server in progress as process 9988
+2021-08-03T20:10:33.452285Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2021-08-03T20:10:33.452538Z 0 [ERROR] [MY-013236] [Server] The designated data directory C:\Users\ivan_\Documents\revature\ is unusable. You can remove all files that the server added to it.
+2021-08-03T20:10:33.454377Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-08-03T20:10:33.454752Z 0 [System] [MY-010910] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.
+2021-08-03T20:12:31.896694Z 0 [System] [MY-010116] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe (mysqld 8.0.26) starting as process 22536
+2021-08-03T20:12:31.910376Z 1 [ERROR] [MY-011011] [Server] Failed to find valid data directory.
+2021-08-03T20:12:31.911028Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-08-03T20:12:31.911480Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-08-03T20:12:31.912311Z 0 [System] [MY-010910] [Server] C:\mysql-8.0.26-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.

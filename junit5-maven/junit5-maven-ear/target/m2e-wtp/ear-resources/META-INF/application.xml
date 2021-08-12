@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" version="6">
+  <display-name>junit5-maven-ear</display-name>
+  <module>
+    <web>
+      <web-uri>junit5-maven-war.war</web-uri>
+      <context-root>junit5-maven</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>junit5-maven-bootstrap.jar</ejb>
+  </module>
+  <module>
+    <ejb>junit5-maven-ejb.jar</ejb>
+  </module>
+  <module>
+    <ejb>jboss-seam-2.3.0.Final.jar</ejb>
+  </module>
+  <library-directory>lib/</library-directory>
+</application>
