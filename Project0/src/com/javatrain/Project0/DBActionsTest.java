@@ -4,6 +4,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -93,8 +94,11 @@ class DBActionsTest {
 		//fail("Not yet implemented");
 	}
 
-	void testLoadBankAccountApplications() throws SQLException {
+	void testLoadCustomerAccountApplications() throws SQLException {
 		String sqlQry;
+		Date nowDate;
+		List<CAColumn> expectedResult = new 
+				ArrayList<CAColumn>(1);
 		int i;
 		
 		// Arrange
@@ -108,17 +112,20 @@ class DBActionsTest {
 		
 		// Set size
 		for(i=0; resultSet.next(); i++) ;
-		List<BAColumn> applicationList = new ArrayList<BAColumn>(i);
+		List<CAColumn> applicationList = new ArrayList<CAColumn>(i);
 		
 		// return cursor back to beginning of results
 		resultSet = statement.executeQuery(sqlQry);
 		
 		while(resultSet.next()) {
-			applicationList.add(new BAColumn(resultSet.getInt(1),
-				resultSet.getString(2), resultSet.getInt(3),
-				resultSet.getDouble(4)));
+			applicationList.add(new CAColumn(resultSet.getDate(1),
+					resultSet.getString(2), resultSet.getString(3),
+					resultSet.getString(4), resultSet.getString(5),
+					resultSet.getInt(6)));
 		}
-		
+		expectedResult.add(new CAColumn(new Date(),
+				"Isodor", "Gunsberg", "3023334331",
+				"111 N Quick Dr, Williams AZ", 16));
 		// Assert
 		//assertEquals(applicationList,);
 		

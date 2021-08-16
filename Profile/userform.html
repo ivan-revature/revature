@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <style>
+        label[for^="user"]{ width: 10em; float: left; }
+        div{ width: 75%; margin-bottom: 1em }
+    </style>
+</head>
+<body>
+
+    <h1>User Registration Form</h1>
+
+<form name="userForm" method="post" onsubmit="onSubmit(event)" action="">
+
+    <div>
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="name">
+    </div>
+
+    <div>
+        <label for="useremail">Email: </label>
+        <input type="text" name="useremail" id="email">
+    </div>
+
+    <div>
+        <label for="userpassword">Password: </label>
+        <input type="text" name="userpassword" id="password">
+    </div>
+
+    <div>
+        <label for="usercpwd">Confirm Password: </label>
+        <input type="text" name="usercpwd" id="cpassword">
+    </div>
+
+    <div>
+        <input type="submit" value="Register">
+    </div>
+</form>
+
+
+<script>
+
+    function onSubmit(event){
+        event.preventDefault()
+
+        var name = document.userForm.username.value;
+        var email = document.userForm.useremail.value;
+        var password = document.userForm.userpassword.value;
+        var cpassword = document.userForm.usercpwd.value;
+        
+        if(username==null || username==""){
+            alert('this is required')
+        }
+	if(useremail==null || useremail==""){
+            alert('this is required')
+        }
+	if(userpassword==null || userpassword==""){
+            alert('this is required')
+        }
+	if(usercpwd==null || usercpwd==""){
+            alert('this is required')
+        }
+    }
+
+</script>
+
+    
+</body>
+</html>
