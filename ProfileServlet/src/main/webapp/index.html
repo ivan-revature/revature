@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Log in to your profile</title>
+<style>
+	.wrapper{
+		width: 40%;
+		border: 1px solid #666;
+		margin: 0 auto;
+		padding: 20px;
+		
+	}
+</style>
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Profile page</h1>
+		<form action="calculate" method="post">
+		<table>
+			<tr>
+				<td><a href="profileLogIn">Log in</a></td><td> | </td>
+				<td><a href="profileLogOut">Log out</a></td><td> | </td>
+				<td><a href="myProfile">Profile</a></td>
+			</tr>
+			<tr>
+				<td>User name: </td>
+				<td><input type="text" name="user_name" placeholder="Name" /></td>
+				<td>Password</td>
+				<td><input type="password" name="user_password" placeholder="Password" /></td>
+			</tr>
+			
+			<tr>
+				<td colspan="2">
+					<input type="submit" value="Log in "/>
+				</td>
+			</tr>
+		</table>
+		</form>
+	</div>
+</body>
+</html>

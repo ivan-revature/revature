@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	.wrapper{
+		width: 40%;
+		border: 1px solid #666;
+		margin: 0 auto;
+		padding: 20px;
+		
+	}
+</style>
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Web Calculator</h1>
+		<form action="calculate" method="post">
+		<table>
+			<tr>
+				<td>Enter first operand</td>
+				<td><input type="text" name="first_operand" placeholder="Operand1" /></td>
+			</tr>
+			<tr>
+				<td>Enter second operand</td>
+				<td><input type="text" name="second_operand" placeholder="Operand2" /></td>
+			</tr>
+			<tr>
+				<td>Select Operation Type</td>
+				<td>
+					<input type="radio" name="operation_type" value="addition"/> Addition &nbsp;&nbsp;
+					<input type="radio" name="operation_type" value="substraction"/> Substraction
+					<input type="radio" name="operation_type" value="multiplication"/> Multiplication
+					<input type="radio" name="operation_type" value="division"/> Division
+				</td>
+			</tr>
+			<tr>
+				<td>Result</td>
+				<td>
+					<input type="text" name="result" placeholder="Result /></td>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" value="Submit "/>
+				 </td>
+			</tr>
+		</table>
+		</form>
+	</div>
+</body>
+</html>

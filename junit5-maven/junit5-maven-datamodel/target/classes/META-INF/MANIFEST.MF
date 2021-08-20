@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Built-By: ivan_
-Build-Jdk: 16.0.1
-Class-Path: jasypt-1.9.0.jar
-Created-By: Maven Integration for Eclipse
-

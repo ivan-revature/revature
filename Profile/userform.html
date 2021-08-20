@@ -7,36 +7,38 @@
     <title>Register</title>
 
     <style>
-        label[for^="user"]{ width: 10em; float: left; }
+        h1 { color: #fff }
+        body { background-color: #ff8c00; }
+        label[for^="user"]{ width: 10em; float: left; color: #fff; }
         div{ width: 75%; margin-bottom: 1em }
     </style>
 </head>
 <body>
 
     <h1>User Registration Form</h1>
-
+    <hr>
 <form name="userForm" method="post" onsubmit="onSubmit(event)" action="">
 
     <div>
         <label for="username">Username: </label>
-        <input type="text" name="username" id="name">
+        <input type="text" name="username" id="username">
     </div>
 
     <div>
         <label for="useremail">Email: </label>
-        <input type="text" name="useremail" id="email">
+        <input type="text" name="useremail" id="useremail">
     </div>
 
     <div>
         <label for="userpassword">Password: </label>
-        <input type="text" name="userpassword" id="password">
+        <input type="text" name="userpassword" id="userpassword">
     </div>
 
     <div>
         <label for="usercpwd">Confirm Password: </label>
-        <input type="text" name="usercpwd" id="cpassword">
+        <input type="text" name="usercpwd" id="usercpwd">
     </div>
-
+    <hr>
     <div>
         <input type="submit" value="Register">
     </div>
@@ -46,27 +48,25 @@
 <script>
 
     function onSubmit(event){
-        event.preventDefault()
+        event.preventDefault();
 
-        var name = document.userForm.username.value;
-        var email = document.userForm.useremail.value;
-        var password = document.userForm.userpassword.value;
-        var cpassword = document.userForm.usercpwd.value;
+        var usrname = document.userForm.username.value;
+        var usremail = document.userForm.useremail.value;
+        var usrpassword = document.userForm.userpassword.value;
+        var usrcpwd = document.userForm.usercpwd.value;
         
-        if(username==null || username==""){
-            alert('this is required')
-        }
-	if(useremail==null || useremail==""){
-            alert('this is required')
-        }
-	if(userpassword==null || userpassword==""){
-            alert('this is required')
-        }
-	if(usercpwd==null || usercpwd==""){
-            alert('this is required')
-        }
-    }
+        if(usrname==null || usrname=="") {
+            alert('User name is required.');
+        } else if (usremail==null || usremail=="") {
+            alert('User email is required.');
+        } else if (usrpassword==null || usrpassword=="") {
+            alert('Password is required.');
+        } else if (usrcpwd==null || usrcpwd=="") {
+            alert('Please confirm your password.');
+        } else 
+            alert('Registration complete.');
 
+    }
 </script>
 
     

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>EMS App</title>
+</head>
+<body>
+		
+		<div class="wrapper">
+		<a href="DisplayEmployeeTable">Show Employee List</a>
+		<h1>New Employee Form</h1>
+		<form action="AddNewEmployee" method="post">
+		<table>
+			<tr>
+				<td>Enter Name</td>
+				<td><input type="text" name="empl_name" placeholder="Name" /></td>
+			</tr>
+			<tr>
+				<td>Enter Email</td>
+				<td><input type="text" name="empl_email" placeholder="Email" /></td>
+			</tr>
+			<tr>
+				<td>Select Gender</td>
+				<td>
+					<input type="radio" name="empl_gender" value="male"/> Male &nbsp;&nbsp;
+					<input type="radio" name="empl_gender" value="female"/> Female
+				</td>
+			</tr>
+			<tr>
+				<td>City</td>
+				<td>
+					<select name="empl_city">
+						<option value="USA">USA</option>
+						<option value="UK">UK</option>
+						<option value="UAE">UAE</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" value="Save "/>
+				 </td>
+			</tr>
+		</table>
+		</form>
+	</div>
+</body>
+</html>
