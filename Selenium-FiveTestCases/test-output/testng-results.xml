@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-11T01:42:46 MST" name="Default suite" finished-at="2021-11-11T01:43:04 MST" duration-ms="18062">
+    <groups>
+    </groups>
+    <test started-at="2021-11-11T01:42:46 MST" name="Default test" finished-at="2021-11-11T01:43:04 MST" duration-ms="18062">
+      <class name="zerobanktestingflows.PurchaseForeignCurrencyBlankAmt">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:zerobanktestingflows.PurchaseForeignCurrencyBlankAmt@21507a04]" started-at="2021-11-11T01:42:46 MST" name="setUp" finished-at="2021-11-11T01:42:56 MST" duration-ms="10223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="purchaseCurrencyBlankAmtTest()[pri:0, instance:zerobanktestingflows.PurchaseForeignCurrencyBlankAmt@21507a04]" started-at="2021-11-11T01:42:56 MST" name="purchaseCurrencyBlankAmtTest" finished-at="2021-11-11T01:42:58 MST" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseCurrencyBlankAmtTest -->
+        <test-method signature="fundTransferTest()[pri:1, instance:zerobanktestingflows.PurchaseForeignCurrencyBlankAmt@21507a04]" started-at="2021-11-11T01:42:58 MST" name="fundTransferTest" finished-at="2021-11-11T01:42:59 MST" duration-ms="1133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransferTest -->
+        <test-method signature="viewStatements()[pri:2, instance:zerobanktestingflows.PurchaseForeignCurrencyBlankAmt@21507a04]" started-at="2021-11-11T01:42:59 MST" name="viewStatements" finished-at="2021-11-11T01:43:03 MST" duration-ms="3526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewStatements -->
+        <test-method signature="findTransaction()[pri:3, instance:zerobanktestingflows.PurchaseForeignCurrencyBlankAmt@21507a04]" started-at="2021-11-11T01:43:03 MST" name="findTransaction" finished-at="2021-11-11T01:43:04 MST" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTransaction -->
+        <test-method signature="logoutTest()[pri:4, instance:zerobanktestingflows.PurchaseForeignCurrencyBlankAmt@21507a04]" started-at="2021-11-11T01:43:04 MST" name="logoutTest" finished-at="2021-11-11T01:43:04 MST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:zerobanktestingflows.PurchaseForeignCurrencyBlankAmt@21507a04]" started-at="2021-11-11T01:43:04 MST" name="cleanUp" finished-at="2021-11-11T01:43:04 MST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- zerobanktestingflows.PurchaseForeignCurrencyBlankAmt -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
